@@ -22,6 +22,8 @@ import { BasicTextArea } from './components/form-fields/TextArea';
 import { BasicSelect } from './components/form-fields/Select';
 import { BasicCheckbox } from './components/form-fields/Checkbox';
 
+import { FormContext, FieldContext, GroupContext, SelectContext } from './Context';
+
 export {
   Form,
   Scope,
@@ -44,5 +46,6 @@ export {
   BasicRadioGroup,
   BasicTextArea,
   BasicSelect,
-  BasicCheckbox
+  BasicCheckbox,
+  FormContext, FieldContext, GroupContext, SelectContext
 };
